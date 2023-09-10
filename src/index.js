@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+/* import App from './App'; */
 import reportWebVitals from './reportWebVitals';
+
+import Exemplo01 from './hooks/Exemplo01_useState';
+import Exemplo02 from './hooks/Exemplo02_useState';
+import Exemplo03 from './hooks/Exemplo03_useState'
+import Exemplo04 from './hooks/Exemplo04_useState'
+import Exemplo05 from './hooks/Exemplo05_useEffect'
+import Exemplo06 from './hooks/Exemplo06_useEffect'
+import Exemplo07 from './hooks/Exemplo07_useContext'
+import Exemplo08 from './hooks/Exemplo08_useRef'
+import Exemplo09 from './hooks/Exemplo09_useReducer'
+import Exemplo10 from './hooks/Exemplo10_useMemo'
+import Exemplo11 from './hooks/Exemplo11_useCallback'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Exemplo11/>
   </React.StrictMode>
 );
 
